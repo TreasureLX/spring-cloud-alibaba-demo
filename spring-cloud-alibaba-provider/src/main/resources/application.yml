@@ -3,6 +3,7 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+        namespace: 5d96ee01-e9ea-4609-933f-80c31a72a8c7
     sentinel:
       eager: true
       transport:
@@ -11,3 +12,4 @@ spring:
         ds1.nacos.server-addr: localhost:8848
         ds1.nacos.data-id: sentinel-flow-rule
         ds1.nacos.rule-type: flow
+
